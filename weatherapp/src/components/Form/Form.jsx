@@ -5,6 +5,13 @@ import styles from './Form.module.css';
 const Form = () => {
     return (
         <form>
+            <img
+          alt="none"
+          src="icons/channel.png"
+          width="102"
+          height="102"
+          className="rounded mx-auto d-block"
+        />
             <input
                 aria-label="location"
                 type="text"
