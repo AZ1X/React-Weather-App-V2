@@ -1,4 +1,5 @@
 import {Navbar, Nav, Container} from 'react-bootstrap';
+import Page from './components/Page';
 
 function App() {
   return (
@@ -22,9 +23,9 @@ function App() {
   </>
   <br />
   <div className="App">
-  <Container style={{padding:20, bottom:20}}>
-  <Page />
-  </Container>
+    <Container style={{padding:20, bottom:20}}>
+      <Page />
+    </Container>
   </div>
   <br />
   </div>
