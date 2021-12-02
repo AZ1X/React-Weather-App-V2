@@ -1,17 +1,22 @@
 import './App.css';
-import {Navbar} from 'react-bootstrap';
+import {Navbar, Nav, Container} from 'react-bootstrap';
 
 function App() {
   return (
     <div className="App">
-    <Navbar class="navbar navbar-light bg-light">
-     <div class="container-fluid">
-        <a class="navbar-brand" href="#">
-        <img src="/docs/5.0/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24" class="d-inline-block align-text-top">
-Bootstrap
-        </a>
-     </div>
-    </Navbar>
+  <>
+  <Navbar bg="primary" variant="dark">
+    <Container>
+    <Navbar.Brand href="#home">Weather App</Navbar.Brand>
+    <Nav className="me-auto">
+      <Nav.Link href="#home">Home</Nav.Link>
+      <Nav.Link href="#features">Features</Nav.Link>
+      <Nav.Link href="#pricing">Pricing</Nav.Link>
+    </Nav>
+    </Container>
+  </Navbar>
+</>
+    </div>
   );
 }
 
