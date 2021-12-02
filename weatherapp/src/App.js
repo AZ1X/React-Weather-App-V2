@@ -1,4 +1,3 @@
-import './App.css';
 import {Navbar, Nav, Container} from 'react-bootstrap';
 
 function App() {
@@ -22,9 +21,11 @@ function App() {
   </Navbar>       
   </>
   <br />
+  <div className="App">
   <Container style={{padding:20, bottom:20}}>
-  <h1>Page</h1>
+  <Page />
   </Container>
+  </div>
   <br />
   </div>
   );
