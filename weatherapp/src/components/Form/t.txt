@@ -1,0 +1,10 @@
+            <img
+          alt="none"
+          src="icons/channel.png"
+          width="102"
+          height="102"
+          className="rounded mx-auto d-block"
+          required
+          value={location}
+          onChange={e => setLocation(e.target.value)}
+        />
