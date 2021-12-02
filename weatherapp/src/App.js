@@ -3,7 +3,7 @@ import Page from './components/Page';
 
 function App() {
   return (
-    <div className="App">
+    <div>
   <>
   <Navbar bg="warning" variant="light">
     <Container fluid >
