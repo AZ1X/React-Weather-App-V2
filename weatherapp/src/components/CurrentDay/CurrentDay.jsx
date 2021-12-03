@@ -7,15 +7,18 @@ import styles from './CurrentDay.module.css';
 const CurrentDay = ({ weekday, date, location, temperature, weatherIcon, weatherDescription }) => (
   <Container fluid>
             <div>
-                <h2 className="font-weight-bold mb-1">{weekday}</h2>
-                <p className="mb-0">{date}</p>
-                <p className="d-flex align-items-baseline font-weight-lighter mb-1">
-                    <img width="10" height="15" src="icons/location.png" me="mr-1" alt="location pin icon" />
-                    <span>{location}</span>
-                </p>
+              <br />
+               <h3>
+              <img
+          alt="none"
+          src="icons/location.png"
+          width="32"
+          height="28"/>
+              <span> {location}</span>
+               </h3><br />
+                <p>{weekday} {date}</p>
             </div>
             <div>
-                <img width="45" src={weatherIcon} alt="" />
                 <h2 className="font-weight-bold mb-1">
                     <span>{temperature}</span>°C
                 </h2>

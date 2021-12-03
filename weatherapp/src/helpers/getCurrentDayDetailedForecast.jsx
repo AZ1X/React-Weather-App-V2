@@ -5,11 +5,6 @@ const currentDayForecast = data => [
         unit: '%',
     },
     {
-        name: 'humidity',
-        value: data.humidity,
-        unit: '%',
-    },
-    {
         name: 'wind',
         value: Math.round(data.wind_speed),
         unit: 'km/h',
@@ -28,6 +23,11 @@ const currentDayForecast = data => [
         name: 'min temp',
         value: Math.round(data.min_temp),
         unit: '°C',
+    },
+    {
+        name: 'humidity',
+        value: data.humidity,
+        unit: '%',
     },
 ];
 
