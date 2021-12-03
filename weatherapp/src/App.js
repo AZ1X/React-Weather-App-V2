@@ -1,4 +1,5 @@
 import {Navbar, Nav, Container,} from 'react-bootstrap';
+import Contact from "./components/Contact";
 import Page from './components/Page';
 
 function App() {
@@ -15,8 +16,8 @@ function App() {
           className="d-inline-block align-top"
         />{' '}<strong>LLZ Weather</strong></Navbar.Brand>
     <Nav className="ml-auto">
-      <Nav.Link href="#home">None</Nav.Link>
-      <Nav.Link href="#features">Contact</Nav.Link>
+      <Nav.Link href="https://discordapp.com/users/584036005191876609">Discord</Nav.Link>
+      <Nav.Link href="http://line.me/ti/p/~lolazy">Line</Nav.Link>
     </Nav>
   
     </Container>

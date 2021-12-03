@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import {Container,} from 'react-bootstrap';
+import {Container} from 'react-bootstrap';
 import UpcomingDaysForecastItem from '../UpcomingDaysForecastItem';
 
 import styles from './UpcomingDaysForecast.module.css';
