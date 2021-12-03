@@ -28,7 +28,7 @@ const Form = ({ submitSearch }) => {
                 aria-label="location"
                 type="text"
                 className={`${styles.input} form-control`}
-                placeholder="Search for location"
+                placeholder="Search for Capital City"
                 required
                 value={location}
                 onChange={e => setLocation(e.target.value)}

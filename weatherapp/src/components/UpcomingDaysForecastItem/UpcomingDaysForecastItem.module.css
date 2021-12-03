@@ -1,6 +1,6 @@
 .weekday {
-    width: 100px;
-    border-radius: var(--secondary-border-radius);
+    width: 85px;
+    border-radius: 30px;
 }
 
 .weekday:hover {
