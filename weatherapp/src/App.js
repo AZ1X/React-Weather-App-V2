@@ -1,5 +1,4 @@
 import {Navbar, Nav, Container,} from 'react-bootstrap';
-import Contact from "./components/Contact";
 import Page from './components/Page';
 
 function App() {
