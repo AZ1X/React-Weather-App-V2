@@ -1,7 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
+import Form from "../Form"
 
-import { Container, Row, Col } from 'react-bootstrap';
+
+import { Container, Row, Col,Button } from 'react-bootstrap';
 
 import CurrentDay from '../CurrentDay';
 import CurrentDayDescription from '../CurrentDayDescription';
@@ -24,6 +26,10 @@ const Forecast = ({ forecast }) => (
                 <UpcomingDaysForecast days={forecast.upcomingDays} />
             </Col>
         </Row>
+        <a href="/Form">
+        <button className={styles.button}>NEXT
+        </button>
+        </a>
     </Container>
     </div>
 );

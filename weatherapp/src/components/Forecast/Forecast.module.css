@@ -14,3 +14,24 @@
     min-height: 300px;
     border-radius: 30px;
 }
+
+.button {
+    border: none;
+    border-radius: 30px;
+    padding: 0.65rem;
+    background-image: #FFF;
+    color: #000;
+    font-weight: 700;
+    cursor: pointer;
+    line-height: initial;
+    width: 100%;
+    height: 38px;
+    margin-bottom: 1rem;
+}
+
+.button:hover {
+    color: var(--main-text-color);
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+      }
