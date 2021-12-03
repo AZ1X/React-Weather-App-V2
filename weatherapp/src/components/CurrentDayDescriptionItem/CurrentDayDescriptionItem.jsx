@@ -5,8 +5,8 @@ import {Container,} from 'react-bootstrap';
 const CurrentDayDescriptionItem = ({ name, value, unit }) => (
     <Container fluid>
     <div className="d-flex justify-content-between">
-        <p className="mb-0 font-weight-bolder text-uppercase"><img width="30" src={`icons/${name}.png`} alt="" />
-          {name}</p>
+        <p className="mb-1 font-weight-bolder text-uppercase"><img width="30" src={`icons/${name}.png`} alt="" />{''}
+           {name}</p>
         <p className="mb-0">
             {value} {unit}
         </p>
